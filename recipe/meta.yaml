@@ -1,5 +1,5 @@
 {% set name = "wait_for2" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wait_for2-{{ version }}.tar.gz
-  sha256: 594d65732c6faa97c2ed0d4a085fd3c4f2d71b6add5c51701184319f7d862309
+  sha256: 7f415415d21845c441391d6b4abe68f5959d2c0fbe927c2f61be28a297bc2acb
 
 build:
   noarch: python
